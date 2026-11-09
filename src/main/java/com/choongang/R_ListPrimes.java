@@ -12,7 +12,7 @@ public class R_ListPrimes {
             int sqrt = (int) Math.sqrt(candi);
             // 소수 여부를 저장할 변수 선언
             boolean isPrime = true;
-            // 2부터 candi까지 순회합니다.
+            // 2부터 candi의 제곱근까지 순회합니다.
             // 여기는 현재 선택한 숫자가 소수인지 확인하기 위해 순회하는 코드입니다.
             for(int i = 2; i <= sqrt; i++) {
                 // 나누어 떨어지면 소수가 아니므로, isPrime을 false로 할당
